@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demographics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demographics.Designer.cs">
+      <DependentUpon>Demographics.cs</DependentUpon>
+    </Compile>
     <Compile Include="Schedule.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Demographics.resx">
+      <DependentUpon>Demographics.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

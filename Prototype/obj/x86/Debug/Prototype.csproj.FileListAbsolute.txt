@@ -32,3 +32,4 @@ C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.exe
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.pdb
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Demographics.resources
