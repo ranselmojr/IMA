@@ -22,3 +22,13 @@ C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.exe
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.pdb
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.MainPage.resources
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\bin\Debug\Prototype.exe
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\bin\Debug\Prototype.pdb
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.MainPage.resources
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.exe
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.pdb
+C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
