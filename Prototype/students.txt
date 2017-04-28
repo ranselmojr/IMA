@@ -1,0 +1,10 @@
+# separate fields with tabs, this allows embedded blanks
+# fields: id last first addr1 addr2 city state zipcode country year credits gpa deans gender
+#
+123456	Jah	Gahn	123 Churchill St.		Kingston	Queenshead	12345	Bahamas	senior	135	3.75	true	0	Gahn is a wonderful student, but is rather poor at cricket.  He ought to be focused on mathematics and kept away from impressionable young ladies.
+
+223344	Clone	Cy	888 Windswept Rd.	Apt. 3a	Indianapolis 	Indiana 	40414	United States	junior	90	4.0	true	1	Cy is an excellent student, but taunts those less brilliant (which includes almost everyone).  He was voted most likely to achive a full ride scholarship and most likely to be whacked with a cricket bat.
+
+987654	Demik	Pann	666 Anthrax Ct.		Gary	Indiana 	40404	United States	sophomore	45	2.9	false	1	Pann is a plague to most teachers as she brings death to joy, eclipses the light from every room, and tells some rather morbid stories.  But, she has really cool jewelery, especially her vampire bat necklace.
+
+555555	Beez	Ray 	99 Krankenhaus		Tombstone	Arizona	85135	United States	freshman	0	3.3	false	0	Ray (formerly Raylynn) is a serious student, friendly to others, and a breath of fresh air in any classroom--unless he bites you.  He somehow always makes me wish to avoid the water cooler.
