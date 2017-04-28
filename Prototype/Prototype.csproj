@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Demographics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +58,13 @@
     </Compile>
     <Compile Include="Schedule.Designer.cs">
       <DependentUpon>Schedule.cs</DependentUpon>
+=======
+    <Compile Include="AcademicHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcademicHistory.Designer.cs">
+      <DependentUpon>AcademicHistory.cs</DependentUpon>
+>>>>>>> academic history v0.001
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -72,8 +80,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Demographics.resx">
       <DependentUpon>Demographics.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="AcademicHistory.resx">
+      <DependentUpon>AcademicHistory.cs</DependentUpon>
+>>>>>>> academic history v0.001
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
