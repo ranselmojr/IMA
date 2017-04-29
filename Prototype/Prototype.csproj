@@ -56,8 +56,13 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Schedule.Designer.cs">
+<<<<<<< HEAD
       <DependentUpon>Schedule.cs</DependentUpon>
     </Compile>  
+=======
+	    <DependentUpon>Schedule.cs</DependentUpon>
+    </Compile>
+>>>>>>> 5841edc7aa02dea9e1ab0e8eae28b289d9c892a5
     <Compile Include="AcademicHistory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +84,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <EmbeddedResource Include="Demographics.resx">
       <DependentUpon>Demographics.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +102,23 @@
       <DependentUpon>UserProfile.cs</DependentUpon>
     </Compile>
 >>>>>>> version whatever
+=======
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserProfile.Designer.cs">
+      <DependentUpon>UserProfile.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Demographics.resx">
+	    <DependentUpon>Demographics.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 5841edc7aa02dea9e1ab0e8eae28b289d9c892a5
     <EmbeddedResource Include="AcademicHistory.resx">
       <DependentUpon>AcademicHistory.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +139,15 @@
       <DesignTime>True</DesignTime>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProfile.resx">
+	<DependentUpon>UserProfile.cs</DependentUpon>
+     </EmbeddedResource>
+>>>>>>> 5841edc7aa02dea9e1ab0e8eae28b289d9c892a5
     <EmbeddedResource Include="Schedule.resx">
       <DependentUpon>Schedule.cs</DependentUpon>
 =======
