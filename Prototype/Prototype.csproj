@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demographics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demographics.Designer.cs">
+      <DependentUpon>Demographics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule.Designer.cs">
+	    <DependentUpon>Schedule.cs</DependentUpon>
+    </Compile>
     <Compile Include="AcademicHistory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,9 @@
     <Compile Include="UserProfile.Designer.cs">
       <DependentUpon>UserProfile.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Demographics.resx">
+	    <DependentUpon>Demographics.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AcademicHistory.resx">
       <DependentUpon>AcademicHistory.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,7 +116,10 @@
       <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserProfile.resx">
-      <DependentUpon>UserProfile.cs</DependentUpon>
+	<DependentUpon>UserProfile.cs</DependentUpon>
+     </EmbeddedResource>
+    <EmbeddedResource Include="Schedule.resx">
+      <DependentUpon>Schedule.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

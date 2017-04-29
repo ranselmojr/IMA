@@ -30,8 +30,13 @@ namespace Prototype
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This is Schedule Sheet", "Schedule Sheet", 
-                MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+            Form schedule = new Schedule();
+            schedule.Show();
+            this.Hide();
+
+            //MessageBox.Show("This is Schedule Sheet", "Schedule Sheet", 
+                //MessageBoxButtons.OK, MessageBoxIcon.Hand);
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -42,8 +47,11 @@ namespace Prototype
 
         private void button5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This is Student Demographics", "Student Demographics", 
-                MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            Form demographics = new Demographics();
+            demographics.Show();
+            this.Hide();
+            //MessageBox.Show("This is Student Demographics", "Student Demographics", 
+                //MessageBoxButtons.OK, MessageBoxIcon.Hand);
         }
 
         private void button6_Click(object sender, EventArgs e)
