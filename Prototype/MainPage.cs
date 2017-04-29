@@ -33,7 +33,7 @@ namespace Prototype
 
             Form schedule = new Schedule();
             schedule.Show();
-            this.Hide();
+  
 
             //MessageBox.Show("This is Schedule Sheet", "Schedule Sheet", 
                 //MessageBoxButtons.OK, MessageBoxIcon.Hand);
@@ -49,7 +49,7 @@ namespace Prototype
         {
             Form demographics = new Demographics();
             demographics.Show();
-            this.Hide();
+      
             //MessageBox.Show("This is Student Demographics", "Student Demographics", 
                 //MessageBoxButtons.OK, MessageBoxIcon.Hand);
         }
@@ -64,6 +64,11 @@ namespace Prototype
         }
 
         private void MainPage_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void MainPage_Load(object sender, EventArgs e)
         {
             Application.Exit();
         }

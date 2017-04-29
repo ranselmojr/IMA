@@ -31,11 +31,11 @@
             System.Windows.Forms.ComboBox comboBox1;
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.lblUniversity = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -61,6 +61,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
+            // comboBox1
+            // 
+            comboBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            comboBox1.DropDownWidth = 321;
+            comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            comboBox1.Items.AddRange(new object[] {
+            "Wikipedia Link",
+            "Topics (.ppt)",
+            "Picture (.jpeg)"});
+            comboBox1.Location = new System.Drawing.Point(377, 481);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new System.Drawing.Size(225, 33);
+            comboBox1.TabIndex = 13;
+            // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
@@ -83,6 +98,12 @@
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(64, 36);
             this.fileToolStripMenuItem.Text = "File";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 38);
+            this.exitToolStripMenuItem.Text = "Exit";
             // 
             // editToolStripMenuItem
             // 
@@ -107,12 +128,6 @@
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(77, 36);
             this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(269, 38);
-            this.exitToolStripMenuItem.Text = "Exit";
             // 
             // picLogo
             // 
@@ -233,21 +248,6 @@
             this.label9.Size = new System.Drawing.Size(225, 39);
             this.label9.TabIndex = 12;
             this.label9.Text = "      Friday       ";
-            // 
-            // comboBox1
-            // 
-            comboBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            comboBox1.DropDownWidth = 321;
-            comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            comboBox1.Items.AddRange(new object[] {
-            "Wikipedia Link",
-            "Topics (.ppt)",
-            "Picture (.jpeg)"});
-            comboBox1.Location = new System.Drawing.Point(377, 481);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new System.Drawing.Size(225, 33);
-            comboBox1.TabIndex = 13;
             // 
             // comboBox2
             // 
@@ -429,7 +429,6 @@
             this.Name = "Schedule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Schedule_FormClosed);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();

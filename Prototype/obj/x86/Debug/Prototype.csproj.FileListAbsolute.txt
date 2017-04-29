@@ -23,7 +23,6 @@ C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.pdb
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.MainPage.resources
 <<<<<<< HEAD
-<<<<<<< HEAD
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\bin\Debug\Prototype.exe
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\bin\Debug\Prototype.pdb
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
@@ -36,7 +35,6 @@ C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
 C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Demographics.resources
 =======
-=======
 >>>>>>> f1889fbdedde4624aef9af03636b95f473c2e293
 C:\Users\Adam Swogger\IMA\Prototype\bin\Debug\Prototype.exe
 C:\Users\Adam Swogger\IMA\Prototype\bin\Debug\Prototype.pdb
@@ -48,7 +46,16 @@ C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.exe
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.pdb
-<<<<<<< HEAD
 >>>>>>> academic history v0.001
-=======
->>>>>>> f1889fbdedde4624aef9af03636b95f473c2e293
+C:\Users\Romeo\Desktop\IMA\Prototype\bin\Debug\Prototype.exe
+C:\Users\Romeo\Desktop\IMA\Prototype\bin\Debug\Prototype.pdb
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.Demographics.resources
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.AcademicHistory.resources
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.MainPage.resources
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.exe
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.pdb
