@@ -56,13 +56,8 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Schedule.Designer.cs">
-<<<<<<< HEAD
       <DependentUpon>Schedule.cs</DependentUpon>
     </Compile>  
-=======
-	    <DependentUpon>Schedule.cs</DependentUpon>
-    </Compile>
->>>>>>> 5841edc7aa02dea9e1ab0e8eae28b289d9c892a5
     <Compile Include="AcademicHistory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,48 +78,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e83bb25db9ca5f4f52f29a5e751c103236ac94bc
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserProfile.Designer.cs">
+      <DependentUpon>UserProfile.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Demographics.resx">
       <DependentUpon>Demographics.cs</DependentUpon>
     </EmbeddedResource>
-=======
-    <Compile Include="Registration.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Registration.Designer.cs">
-      <DependentUpon>Registration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserProfile.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserProfile.Designer.cs">
-      <DependentUpon>UserProfile.cs</DependentUpon>
-    </Compile>
->>>>>>> version whatever
-<<<<<<< HEAD
-=======
-=======
-    <Compile Include="Registration.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Registration.Designer.cs">
-      <DependentUpon>Registration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserProfile.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserProfile.Designer.cs">
-      <DependentUpon>UserProfile.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Demographics.resx">
-	    <DependentUpon>Demographics.cs</DependentUpon>
-    </EmbeddedResource>
->>>>>>> 5841edc7aa02dea9e1ab0e8eae28b289d9c892a5
->>>>>>> e83bb25db9ca5f4f52f29a5e751c103236ac94bc
     <EmbeddedResource Include="AcademicHistory.resx">
       <DependentUpon>AcademicHistory.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,28 +112,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    <EmbeddedResource Include="Registration.resx">
-      <DependentUpon>Registration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserProfile.resx">
-	<DependentUpon>UserProfile.cs</DependentUpon>
-     </EmbeddedResource>
->>>>>>> 5841edc7aa02dea9e1ab0e8eae28b289d9c892a5
->>>>>>> e83bb25db9ca5f4f52f29a5e751c103236ac94bc
-    <EmbeddedResource Include="Schedule.resx">
-      <DependentUpon>Schedule.cs</DependentUpon>
-=======
+     <EmbeddedResource Include="Schedule.resx">
+	<DependentUpon>Schedule.cs</DependentUpon>
+    </EmbeddedResource>	     
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserProfile.resx">
       <DependentUpon>UserProfile.cs</DependentUpon>
->>>>>>> version whatever
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

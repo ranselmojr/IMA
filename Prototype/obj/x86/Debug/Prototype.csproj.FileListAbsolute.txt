@@ -46,14 +46,10 @@ C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.exe
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.pdb
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.UserProfile.resources
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Registration.resources
 >>>>>>> e83bb25db9ca5f4f52f29a5e751c103236ac94bc
 >>>>>>> academic history v0.001
-<<<<<<< HEAD
 C:\Users\Romeo\Desktop\IMA\Prototype\bin\Debug\Prototype.exe
 C:\Users\Romeo\Desktop\IMA\Prototype\bin\Debug\Prototype.pdb
 C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
@@ -66,15 +62,10 @@ C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
 C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
 C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.exe
 C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.pdb
-=======
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.UserProfile.resources
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Registration.resources
 >>>>>>> version whatever
-<<<<<<< HEAD
-=======
-=======
 >>>>>>> 635957b0ad954466b102befe8e3e41bc11d52862
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Demographics.resources
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
 >>>>>>> 5841edc7aa02dea9e1ab0e8eae28b289d9c892a5
->>>>>>> e83bb25db9ca5f4f52f29a5e751c103236ac94bc
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.Registration.resources
+C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.UserProfile.resources
