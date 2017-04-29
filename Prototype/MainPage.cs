@@ -56,8 +56,11 @@ namespace Prototype
 
         private void button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This is Academic History", "Academic History", 
-                MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            //MessageBox.Show("This is Academic History", "Academic History", 
+            //    MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            Form academicHistory = new AcademicHistory();
+            academicHistory.Show();
+            
         }
 
         private void MainPage_FormClosed(object sender, FormClosedEventArgs e)
