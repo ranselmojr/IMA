@@ -46,6 +46,7 @@ C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.exe
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.pdb
+<<<<<<< HEAD
 >>>>>>> academic history v0.001
 C:\Users\Romeo\Desktop\IMA\Prototype\bin\Debug\Prototype.exe
 C:\Users\Romeo\Desktop\IMA\Prototype\bin\Debug\Prototype.pdb
@@ -59,3 +60,7 @@ C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
 C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
 C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.exe
 C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.pdb
+=======
+C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.UserProfile.resources
+C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Registration.resources
+>>>>>>> version whatever

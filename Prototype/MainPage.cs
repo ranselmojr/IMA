@@ -60,7 +60,17 @@ namespace Prototype
             //    MessageBoxButtons.OK, MessageBoxIcon.Hand);
             Form academicHistory = new AcademicHistory();
             academicHistory.Show();
-            
+
+            // for testing purposes as there is no user profile button
+
+            // Form userProfile = new UserProfile();
+            // userProfile.Show();
+
+            // for testing purposes to not ruin other code
+
+            //Form registration = new Registration();
+            //registration.Show();
+
         }
 
         private void MainPage_FormClosed(object sender, FormClosedEventArgs e)
