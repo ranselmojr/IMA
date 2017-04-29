@@ -32,3 +32,5 @@ C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.exe
 C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.pdb
+C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.UserProfile.resources
+C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Registration.resources
