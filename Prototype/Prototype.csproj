@@ -57,7 +57,7 @@
     </Compile>
     <Compile Include="Schedule.Designer.cs">
       <DependentUpon>Schedule.cs</DependentUpon>
-    </Compile>  
+    </Compile>
     <Compile Include="AcademicHistory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,9 +112,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-     <EmbeddedResource Include="Schedule.resx">
-	<DependentUpon>Schedule.cs</DependentUpon>
-    </EmbeddedResource>	     
+    <EmbeddedResource Include="Schedule.resx">
+      <DependentUpon>Schedule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
