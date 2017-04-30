@@ -84,3 +84,6 @@ C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.csproj.Generat
 C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.exe
 C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.pdb
 C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.TextForm.resources
+C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.Attendance.resources
+C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.Grades.resources
+C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.LecturePrep.resources

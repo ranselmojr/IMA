@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Schedule));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblUniversity = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -184,11 +185,11 @@
             this.buttonSat8 = new System.Windows.Forms.Button();
             this.buttonSat9 = new System.Windows.Forms.Button();
             this.buttonSat1 = new System.Windows.Forms.Button();
-            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.picLogo = new System.Windows.Forms.PictureBox();
+            this.label23 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
@@ -216,6 +217,12 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(64, 36);
             this.fileToolStripMenuItem.Text = "File";
             // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(165, 38);
+            this.saveToolStripMenuItem.Text = "Save";
+            // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
@@ -239,17 +246,6 @@
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(77, 36);
             this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // lblUniversity
-            // 
-            this.lblUniversity.AutoSize = true;
-            this.lblUniversity.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUniversity.Location = new System.Drawing.Point(237, 185);
-            this.lblUniversity.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.lblUniversity.Name = "lblUniversity";
-            this.lblUniversity.Size = new System.Drawing.Size(292, 42);
-            this.lblUniversity.TabIndex = 3;
-            this.lblUniversity.Text = "C# High School";
             // 
             // label4
             // 
@@ -1815,12 +1811,6 @@
             this.buttonSat1.UseVisualStyleBackColor = false;
             this.buttonSat1.Click += new System.EventHandler(this.buttonSat1_Click);
             // 
-            // saveToolStripMenuItem
-            // 
-            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(165, 38);
-            this.saveToolStripMenuItem.Text = "Save";
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(1005, 947);
@@ -1855,7 +1845,7 @@
             // 
             // picLogo
             // 
-            this.picLogo.Image = global::Prototype.Properties.Resources.image;
+            this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
             this.picLogo.Location = new System.Drawing.Point(15, 73);
             this.picLogo.Margin = new System.Windows.Forms.Padding(6);
             this.picLogo.Name = "picLogo";
@@ -1863,11 +1853,23 @@
             this.picLogo.TabIndex = 2;
             this.picLogo.TabStop = false;
             // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(249, 176);
+            this.label23.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(353, 51);
+            this.label23.TabIndex = 168;
+            this.label23.Text = "Unsung University";
+            // 
             // Schedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1783, 1093);
+            this.Controls.Add(this.label23);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.button1);
@@ -2020,13 +2022,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblUniversity);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Schedule";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -2045,7 +2045,6 @@
         private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.PictureBox picLogo;
-        private System.Windows.Forms.Label lblUniversity;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -2199,5 +2198,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Label label23;
     }
 }

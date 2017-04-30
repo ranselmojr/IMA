@@ -22,10 +22,10 @@ namespace Prototype
                 MessageBoxButtons.OK, MessageBoxIcon.Hand);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnAttendance_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This is Attendance Sheet", "Attendance Sheet", 
-                MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            Form attendance = new Attendance();
+            attendance.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -81,6 +81,48 @@ namespace Prototype
         private void MainPage_Load(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnGrades_Click(object sender, EventArgs e)
+        {
+            Form grades = new Grades();
+            grades.Show();
+        }
+
+        private void btnLectures_Click(object sender, EventArgs e)
+        {
+            Form lectures = new LecturePrep();
+            lectures.Show();
+        }
+
+        private void btnAttendance_Click_1(object sender, EventArgs e)
+        {
+            Form attendance = new Attendance();
+            attendance.Show();
+        }
+
+        private void btnDemographics_Click(object sender, EventArgs e)
+        {
+            Form demographics = new Demographics();
+            demographics.Show();
+        }
+
+        private void btnSchedule_Click(object sender, EventArgs e)
+        {
+            Form schedule = new Schedule();
+            schedule.Show();
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            Form schedule = new Schedule();
+            schedule.Show();
+        }
+
+        private void btnHistory_Click(object sender, EventArgs e)
+        {
+            Form history = new AcademicHistory();
+            history.Show();
         }
     }
 }

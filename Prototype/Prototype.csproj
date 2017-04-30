@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance.Designer.cs">
+      <DependentUpon>Attendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Demographics.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Demographics.Designer.cs">
       <DependentUpon>Demographics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grades.Designer.cs">
+      <DependentUpon>Grades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LecturePrep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LecturePrep.Designer.cs">
+      <DependentUpon>LecturePrep.cs</DependentUpon>
     </Compile>
     <Compile Include="Schedule.cs">
       <SubType>Form</SubType>
@@ -90,11 +108,20 @@
     <Compile Include="UserProfile.Designer.cs">
       <DependentUpon>UserProfile.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Attendance.resx">
+      <DependentUpon>Attendance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Demographics.resx">
       <DependentUpon>Demographics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AcademicHistory.resx">
       <DependentUpon>AcademicHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grades.resx">
+      <DependentUpon>Grades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LecturePrep.resx">
+      <DependentUpon>LecturePrep.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

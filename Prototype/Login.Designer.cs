@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.lblUniversity = new System.Windows.Forms.Label();
             this.lblUserid = new System.Windows.Forms.Label();
@@ -45,8 +46,9 @@
             // 
             // picLogo
             // 
+            this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
             this.picLogo.Location = new System.Drawing.Point(180, 29);
-            this.picLogo.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.picLogo.Margin = new System.Windows.Forms.Padding(6);
             this.picLogo.Name = "picLogo";
             this.picLogo.Size = new System.Drawing.Size(200, 154);
             this.picLogo.TabIndex = 0;
@@ -86,7 +88,7 @@
             // txtUserid
             // 
             this.txtUserid.Location = new System.Drawing.Point(86, 279);
-            this.txtUserid.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtUserid.Margin = new System.Windows.Forms.Padding(6);
             this.txtUserid.Name = "txtUserid";
             this.txtUserid.Size = new System.Drawing.Size(384, 31);
             this.txtUserid.TabIndex = 1;
@@ -94,7 +96,7 @@
             // btnLogin
             // 
             this.btnLogin.Location = new System.Drawing.Point(202, 463);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(6);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(150, 44);
             this.btnLogin.TabIndex = 3;
@@ -159,7 +161,7 @@
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(86, 375);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(6);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(384, 31);
@@ -182,8 +184,9 @@
             this.Controls.Add(this.lblUserid);
             this.Controls.Add(this.lblUniversity);
             this.Controls.Add(this.picLogo);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IMA Login";
             this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
