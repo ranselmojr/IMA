@@ -9,16 +9,16 @@ using System.Windows.Forms;
 
 namespace Prototype
 {
-    public partial class Schedule : Form
+    public partial class LecturePrep : Form
     {
-        public Schedule()
+        public LecturePrep()
         {
             InitializeComponent();
         }
 
-        private void Schedule_FormClosed(object sender, FormClosedEventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
     }
 }

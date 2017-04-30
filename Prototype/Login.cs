@@ -7,13 +7,12 @@ namespace Prototype
 {
     public partial class frmLogin : Form
     {
-        private static string fileName = "..\\..\\image.png";
         private static string userId = "12345@unsunguni.edu";
+        private static string password = "12345";
         private static string msgInvalid = "One or both of User ID and password is invalid; please correct.";
         private static string msgPassword = "Your password is 12345.";
-        private static string msgRegister = "Your new User ID is " + userId + " and your password is " + password;
+        private static string msgRegister = "Your new User ID is " + userId + " and\nyour password is " + password;
         private static string msgUserid = "User ID is not a valid email address; please correct.";
-        private static string password = "12345";
 
         public frmLogin()
         {
@@ -22,7 +21,6 @@ namespace Prototype
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            picLogo.Image = (Bitmap)Image.FromFile(fileName, true);
         }
 
         private void lnkForgot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -37,6 +35,15 @@ namespace Prototype
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            // hack start
+            if (txtUserid.Text.Equals("xx"))
+            {
+                Form mainMenu = new MainPage();
+                mainMenu.Show();
+                this.Hide();
+                return;
+            }
+            // hack end
             try
             {
                 string address = new MailAddress(txtUserid.Text).Address;
@@ -57,9 +64,6 @@ namespace Prototype
                 mainMenu.Show();
                 this.Hide();
             }
-
-            // Form2 frm = new Form2();
-            // frm.Show();
         }
     }
 }

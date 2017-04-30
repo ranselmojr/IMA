@@ -84,21 +84,21 @@
             // pctLogo
             // 
             this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
-            this.pctLogo.Location = new System.Drawing.Point(37, 30);
+            this.pctLogo.Location = new System.Drawing.Point(28, 30);
             this.pctLogo.Name = "pctLogo";
-            this.pctLogo.Size = new System.Drawing.Size(100, 71);
+            this.pctLogo.Size = new System.Drawing.Size(95, 80);
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(154, 77);
+            this.lblName.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(129, 84);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(156, 24);
+            this.lblName.Size = new System.Drawing.Size(181, 26);
             this.lblName.TabIndex = 1;
-            this.lblName.Text = "C# High School";
+            this.lblName.Text = "Unsung University";
             // 
             // lblStudentID
             // 
@@ -417,7 +417,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(158, 452);
+            this.btnCancel.Location = new System.Drawing.Point(459, 452);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 11;
@@ -427,7 +427,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(252, 452);
+            this.btnSave.Location = new System.Drawing.Point(550, 452);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 10;
@@ -437,7 +437,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(387, 452);
+            this.btnExit.Location = new System.Drawing.Point(640, 452);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 12;
@@ -511,7 +511,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(744, 517);
+            this.ClientSize = new System.Drawing.Size(744, 496);
             this.Controls.Add(this.grpNotes);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSave);
@@ -526,7 +526,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Demographics";
-            this.Text = "Student Demographics";
+            this.Text = "IMA Student Demographics";
             this.Load += new System.EventHandler(this.Demographics_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
             this.grpStudent.ResumeLayout(false);
