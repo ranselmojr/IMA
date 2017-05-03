@@ -521,7 +521,7 @@
             // btnView
             // 
             this.btnView.Location = new System.Drawing.Point(306, 128);
-            this.btnView.Name = "btnViewx";
+            this.btnView.Name = "btnView";
             this.btnView.Size = new System.Drawing.Size(75, 23);
             this.btnView.TabIndex = 16;
             this.btnView.Text = "View";
@@ -531,7 +531,7 @@
             // btnEdit
             // 
             this.btnEdit.Location = new System.Drawing.Point(399, 128);
-            this.btnEdit.Name = "btnEditx";
+            this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 23);
             this.btnEdit.TabIndex = 17;
             this.btnEdit.Text = "Edit";
