@@ -1,89 +1,17 @@
-c:\users\ryonts\documents\visual studio 2010\Projects\Prototype\Prototype\bin\Debug\Prototype.exe
-c:\users\ryonts\documents\visual studio 2010\Projects\Prototype\Prototype\bin\Debug\Prototype.pdb
-c:\users\ryonts\documents\visual studio 2010\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
-c:\users\ryonts\documents\visual studio 2010\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
-c:\users\ryonts\documents\visual studio 2010\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
-c:\users\ryonts\documents\visual studio 2010\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.exe
-c:\users\ryonts\documents\visual studio 2010\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.pdb
-C:\Users\richy\Projects\CSC670\Team Project\RichYonts\Prototype\Prototype\bin\Debug\Prototype.exe
-C:\Users\richy\Projects\CSC670\Team Project\RichYonts\Prototype\Prototype\bin\Debug\Prototype.pdb
-C:\Users\richy\Projects\CSC670\Team Project\RichYonts\Prototype\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
-C:\Users\richy\Projects\CSC670\Team Project\RichYonts\Prototype\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
-C:\Users\richy\Projects\CSC670\Team Project\RichYonts\Prototype\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
-C:\Users\richy\Projects\CSC670\Team Project\RichYonts\Prototype\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
-C:\Users\richy\Projects\CSC670\Team Project\RichYonts\Prototype\Prototype\obj\x86\Debug\Prototype.exe
-C:\Users\richy\Projects\CSC670\Team Project\RichYonts\Prototype\Prototype\obj\x86\Debug\Prototype.pdb
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\bin\Debug\Prototype.exe
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\bin\Debug\Prototype.pdb
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.exe
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.pdb
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\Prototype\Prototype\obj\x86\Debug\Prototype.MainPage.resources
-<<<<<<< HEAD
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\bin\Debug\Prototype.exe
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\bin\Debug\Prototype.pdb
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.MainPage.resources
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.exe
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.pdb
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
-C:\Users\Romeo\Documents\Visual Studio 2017\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Demographics.resources
-=======
->>>>>>> f1889fbdedde4624aef9af03636b95f473c2e293
-C:\Users\Adam Swogger\IMA\Prototype\bin\Debug\Prototype.exe
-C:\Users\Adam Swogger\IMA\Prototype\bin\Debug\Prototype.pdb
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.AcademicHistory.resources
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.MainPage.resources
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.exe
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.pdb
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.UserProfile.resources
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Registration.resources
->>>>>>> e83bb25db9ca5f4f52f29a5e751c103236ac94bc
->>>>>>> academic history v0.001
-C:\Users\Romeo\Desktop\IMA\Prototype\bin\Debug\Prototype.exe
-C:\Users\Romeo\Desktop\IMA\Prototype\bin\Debug\Prototype.pdb
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.Demographics.resources
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.AcademicHistory.resources
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.MainPage.resources
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.exe
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.pdb
->>>>>>> version whatever
->>>>>>> 635957b0ad954466b102befe8e3e41bc11d52862
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Demographics.resources
-C:\Users\Adam Swogger\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
->>>>>>> 5841edc7aa02dea9e1ab0e8eae28b289d9c892a5
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.Registration.resources
-C:\Users\Romeo\Desktop\IMA\Prototype\obj\x86\Debug\Prototype.UserProfile.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\bin\Debug\Prototype.exe
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\bin\Debug\Prototype.pdb
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.Demographics.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.AcademicHistory.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.MainPage.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.Schedule.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.Registration.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.UserProfile.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.exe
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.pdb
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.TextForm.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.Attendance.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.Grades.resources
-C:\Users\Romeo\Desktop\IMA2\IMA\Prototype\obj\x86\Debug\Prototype.LecturePrep.resources
+C:\Users\richy\Projects\IMA\Prototype\bin\Debug\Prototype.exe
+C:\Users\richy\Projects\IMA\Prototype\bin\Debug\Prototype.pdb
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.csprojResolveAssemblyReference.cache
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.AttendanceSheet.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.StudentDemographics.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.AcademicHistory.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.GradeSheet.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.LecturePreparation.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.MainPage.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.ScheduleSheet.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Registration.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.UserProfile.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.csproj.GenerateResource.Cache
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.exe
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.pdb
