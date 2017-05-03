@@ -47,10 +47,9 @@
             // picLogo
             // 
             this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
-            this.picLogo.Location = new System.Drawing.Point(180, 29);
-            this.picLogo.Margin = new System.Windows.Forms.Padding(6);
+            this.picLogo.Location = new System.Drawing.Point(90, 15);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(200, 154);
+            this.picLogo.Size = new System.Drawing.Size(100, 80);
             this.picLogo.TabIndex = 0;
             this.picLogo.TabStop = false;
             // 
@@ -58,47 +57,42 @@
             // 
             this.lblUniversity.AutoSize = true;
             this.lblUniversity.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUniversity.Location = new System.Drawing.Point(150, 183);
-            this.lblUniversity.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblUniversity.Location = new System.Drawing.Point(75, 95);
             this.lblUniversity.Name = "lblUniversity";
-            this.lblUniversity.Size = new System.Drawing.Size(239, 30);
+            this.lblUniversity.Size = new System.Drawing.Size(133, 16);
             this.lblUniversity.TabIndex = 1;
             this.lblUniversity.Text = "Unsung University";
             // 
             // lblUserid
             // 
             this.lblUserid.AutoSize = true;
-            this.lblUserid.Location = new System.Drawing.Point(80, 250);
-            this.lblUserid.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblUserid.Location = new System.Drawing.Point(40, 130);
             this.lblUserid.Name = "lblUserid";
-            this.lblUserid.Size = new System.Drawing.Size(89, 25);
+            this.lblUserid.Size = new System.Drawing.Size(46, 13);
             this.lblUserid.TabIndex = 2;
             this.lblUserid.Text = "User ID:";
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(80, 346);
-            this.lblPassword.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblPassword.Location = new System.Drawing.Point(40, 180);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(112, 25);
+            this.lblPassword.Size = new System.Drawing.Size(56, 13);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Password:";
             // 
             // txtUserid
             // 
-            this.txtUserid.Location = new System.Drawing.Point(86, 279);
-            this.txtUserid.Margin = new System.Windows.Forms.Padding(6);
+            this.txtUserid.Location = new System.Drawing.Point(43, 145);
             this.txtUserid.Name = "txtUserid";
-            this.txtUserid.Size = new System.Drawing.Size(384, 31);
+            this.txtUserid.Size = new System.Drawing.Size(194, 20);
             this.txtUserid.TabIndex = 1;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(202, 463);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(6);
+            this.btnLogin.Location = new System.Drawing.Point(101, 241);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(150, 44);
+            this.btnLogin.Size = new System.Drawing.Size(75, 23);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -107,10 +101,9 @@
             // lnkForgot
             // 
             this.lnkForgot.AutoSize = true;
-            this.lnkForgot.Location = new System.Drawing.Point(190, 525);
-            this.lnkForgot.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lnkForgot.Location = new System.Drawing.Point(95, 273);
             this.lnkForgot.Name = "lnkForgot";
-            this.lnkForgot.Size = new System.Drawing.Size(186, 25);
+            this.lnkForgot.Size = new System.Drawing.Size(92, 13);
             this.lnkForgot.TabIndex = 4;
             this.lnkForgot.TabStop = true;
             this.lnkForgot.Text = "Forgot Password?";
@@ -119,10 +112,9 @@
             // lnkRegister
             // 
             this.lnkRegister.AutoSize = true;
-            this.lnkRegister.Location = new System.Drawing.Point(176, 602);
-            this.lnkRegister.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lnkRegister.Location = new System.Drawing.Point(88, 313);
             this.lnkRegister.Name = "lnkRegister";
-            this.lnkRegister.Size = new System.Drawing.Size(92, 25);
+            this.lnkRegister.Size = new System.Drawing.Size(46, 13);
             this.lnkRegister.TabIndex = 5;
             this.lnkRegister.TabStop = true;
             this.lnkRegister.Text = "Register";
@@ -131,47 +123,44 @@
             // lblRegister1
             // 
             this.lblRegister1.AutoSize = true;
-            this.lblRegister1.Location = new System.Drawing.Point(48, 577);
-            this.lblRegister1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblRegister1.Location = new System.Drawing.Point(24, 300);
             this.lblRegister1.Name = "lblRegister1";
-            this.lblRegister1.Size = new System.Drawing.Size(470, 25);
+            this.lblRegister1.Size = new System.Drawing.Size(238, 13);
             this.lblRegister1.TabIndex = 9;
             this.lblRegister1.Text = "If you need access, but do not have an ID, click ";
             // 
             // lblRegister2
             // 
             this.lblRegister2.AutoSize = true;
-            this.lblRegister2.Location = new System.Drawing.Point(100, 602);
-            this.lblRegister2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblRegister2.Location = new System.Drawing.Point(50, 313);
             this.lblRegister2.Name = "lblRegister2";
-            this.lblRegister2.Size = new System.Drawing.Size(85, 25);
+            this.lblRegister2.Size = new System.Drawing.Size(42, 13);
             this.lblRegister2.TabIndex = 10;
             this.lblRegister2.Text = "this link";
             // 
             // lblRegister3
             // 
             this.lblRegister3.AutoSize = true;
-            this.lblRegister3.Location = new System.Drawing.Point(264, 602);
-            this.lblRegister3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblRegister3.Location = new System.Drawing.Point(132, 313);
             this.lblRegister3.Name = "lblRegister3";
-            this.lblRegister3.Size = new System.Drawing.Size(188, 25);
+            this.lblRegister3.Size = new System.Drawing.Size(94, 13);
             this.lblRegister3.TabIndex = 11;
             this.lblRegister3.Text = "to request access.";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(86, 375);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(6);
+            this.txtPassword.Location = new System.Drawing.Point(43, 195);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(384, 31);
+            this.txtPassword.Size = new System.Drawing.Size(194, 20);
             this.txtPassword.TabIndex = 2;
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(568, 671);
+            this.BackColor = System.Drawing.Color.Lavender;
+            this.ClientSize = new System.Drawing.Size(284, 349);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.lblRegister3);
             this.Controls.Add(this.lblRegister2);
@@ -184,11 +173,9 @@
             this.Controls.Add(this.lblUserid);
             this.Controls.Add(this.lblUniversity);
             this.Controls.Add(this.picLogo);
-            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IMA Login";
-            this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

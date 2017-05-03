@@ -46,35 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attendance.cs">
+    <Compile Include="AttendanceSheet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Attendance.Designer.cs">
-      <DependentUpon>Attendance.cs</DependentUpon>
+    <Compile Include="AttendanceSheet.Designer.cs">
+      <DependentUpon>AttendanceSheet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Demographics.cs">
+    <Compile Include="StudentDemographics.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Demographics.Designer.cs">
-      <DependentUpon>Demographics.cs</DependentUpon>
+    <Compile Include="StudentDemographics.Designer.cs">
+      <DependentUpon>StudentDemographics.cs</DependentUpon>
     </Compile>
-    <Compile Include="Grades.cs">
+    <Compile Include="GradeSheet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Grades.Designer.cs">
-      <DependentUpon>Grades.cs</DependentUpon>
+    <Compile Include="GradeSheet.Designer.cs">
+      <DependentUpon>GradeSheet.cs</DependentUpon>
     </Compile>
-    <Compile Include="LecturePrep.cs">
+    <Compile Include="LecturePreparation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LecturePrep.Designer.cs">
-      <DependentUpon>LecturePrep.cs</DependentUpon>
+    <Compile Include="LecturePreparation.Designer.cs">
+      <DependentUpon>LecturePreparation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Schedule.cs">
+    <Compile Include="ScheduleSheet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Schedule.Designer.cs">
-      <DependentUpon>Schedule.cs</DependentUpon>
+    <Compile Include="ScheduleSheet.Designer.cs">
+      <DependentUpon>ScheduleSheet.cs</DependentUpon>
     </Compile>
     <Compile Include="AcademicHistory.cs">
       <SubType>Form</SubType>
@@ -108,20 +108,20 @@
     <Compile Include="UserProfile.Designer.cs">
       <DependentUpon>UserProfile.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Attendance.resx">
-      <DependentUpon>Attendance.cs</DependentUpon>
+    <EmbeddedResource Include="AttendanceSheet.resx">
+      <DependentUpon>AttendanceSheet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Demographics.resx">
-      <DependentUpon>Demographics.cs</DependentUpon>
+    <EmbeddedResource Include="StudentDemographics.resx">
+      <DependentUpon>StudentDemographics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AcademicHistory.resx">
       <DependentUpon>AcademicHistory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Grades.resx">
-      <DependentUpon>Grades.cs</DependentUpon>
+    <EmbeddedResource Include="GradeSheet.resx">
+      <DependentUpon>GradeSheet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LecturePrep.resx">
-      <DependentUpon>LecturePrep.cs</DependentUpon>
+    <EmbeddedResource Include="LecturePreparation.resx">
+      <DependentUpon>LecturePreparation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -139,8 +139,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Schedule.resx">
-      <DependentUpon>Schedule.cs</DependentUpon>
+    <EmbeddedResource Include="ScheduleSheet.resx">
+      <DependentUpon>ScheduleSheet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
@@ -159,7 +159,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\image.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

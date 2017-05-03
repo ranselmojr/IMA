@@ -3,16 +3,17 @@ using System.Windows.Forms;
 
 namespace Prototype
 {
-    public partial class Registration : Form
+    public partial class ScheduleSheet : Form
     {
-        public Registration()
+        public ScheduleSheet()
         {
             InitializeComponent();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            this.Close();
+            MessageBox.Show("Saved", "Saved",
+                MessageBoxButtons.OK, MessageBoxIcon.Hand);
         }
 
         private void btnExit_Click(object sender, EventArgs e)

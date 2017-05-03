@@ -3,16 +3,17 @@ using System.Windows.Forms;
 
 namespace Prototype
 {
-    public partial class Registration : Form
+    public partial class AttendanceSheet : Form
     {
-        public Registration()
+        public AttendanceSheet()
         {
             InitializeComponent();
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
+        private void Attendance_Load(object sender, EventArgs e)
         {
-            this.Close();
+            cmbMonday.Items.Add("Present");
+            cmbMonday.Items.Add("Absent");
         }
 
         private void btnExit_Click(object sender, EventArgs e)
