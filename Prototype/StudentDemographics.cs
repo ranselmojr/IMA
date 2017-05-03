@@ -19,9 +19,8 @@ namespace Prototype
 
         private void Demographics_Load(object sender, EventArgs e)
         {
-            btnCancel_Click(null, null);
-            // read input file and fill in State, Country; load a set of 3 to 5 valid students
-            cmbState.Items.Add("California");
+            btnCancel_Click(null, null);  // set initial state of widgets
+            cmbState.Items.Add("California");  // populate comboboxes with set of values from "database"
             cmbState.Items.Add("Arizona");
             cmbState.Items.Add("North Carolina");
             cmbState.Items.Add("Illinois");
@@ -33,7 +32,7 @@ namespace Prototype
             cmbCountry.Items.Add("Bahamas");
             cmbCountry.Items.Add("Canada");
             cmbCountry.Sorted = true;
-            students = Student.InitializeFromFile();
+            students = Student.InitializeFromFile();  // read student data from "database"
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -79,7 +78,7 @@ namespace Prototype
 
         private void btnSave_Click(object sender, EventArgs e)
         {      
-            candidate.Addr1 = txtAddress1.Text;
+            candidate.Addr1 = txtAddress1.Text;  // update editable fields to "database"
             candidate.Addr2 = txtAddress2.Text;              
             candidate.City = txtCity.Text;              
             candidate.State = cmbState.Text;            
@@ -90,7 +89,7 @@ namespace Prototype
 
         private void txtStudent_TextChanged(object sender, EventArgs e)
         {
-            if (txtStudent.Text.Length == 6)
+            if (txtStudent.Text.Length == 6)  // verify only legitimate numeric patterns
             {
                 btnCancel.Enabled = true;
                 btnView.Enabled = true;
@@ -101,13 +100,13 @@ namespace Prototype
             }
         }
 
-        private void btnViewx_Click(object sender, EventArgs e)
+        private void btnView_Click(object sender, EventArgs e)
         {
             String id = txtStudent.Text;
             Int32 target = Int32.Parse(id);
             candidate = null;
             btnCancel_Click(null, null);
-            foreach (Student student in students)
+            foreach (Student student in students)  // find student in "returned database data"
             {
                 if (student.Id == target)
                 {
@@ -120,7 +119,7 @@ namespace Prototype
                 MessageBox.Show(msgMissing);
                 return;
             }
-            txtStudent.Text = id;
+            txtStudent.Text = id;  // populate text widgets
             txtLast.Text = candidate.Last;
             txtFirst.Text = candidate.First;
             txtAddress1.Text = candidate.Addr1;
@@ -142,9 +141,9 @@ namespace Prototype
             btnEdit.Enabled = true;
         }
 
-        private void btnEditx_Click(object sender, EventArgs e)
+        private void btnEdit_Click(object sender, EventArgs e)
         {
-            txtAddress1.ReadOnly = false;
+            txtAddress1.ReadOnly = false;  // enable editable text widgets
             txtAddress2.ReadOnly = false;
             txtCity.ReadOnly = false;
             cmbState.Enabled = true;
@@ -154,12 +153,12 @@ namespace Prototype
         }
     }
 
-    // a DAO object to hold configured values of programs and minimum requirements
+    // DAO object to hold configured values of programs and minimum requirements
     class Student
     {
         private static string fileName = "students.txt";
 
-        public Int32 Id { get; set; }
+        public Int32 Id { get; set; }  // expose properties
         public string Last { get; set; }
         public string First { get; set; }
         public string Addr1 { get; set; }
@@ -200,7 +199,7 @@ namespace Prototype
             string[] lines = null;
             try
             {
-                lines = File.ReadAllLines("..\\..\\students.txt");
+                lines = File.ReadAllLines("..\\..\\students.txt");  // simulate the "database"
             }
             catch (FileNotFoundException)
             {
@@ -215,7 +214,7 @@ namespace Prototype
             List<Student> students = new List<Student>();
             foreach (string line in lines)
             {
-                if (line.StartsWith("#") || line.Length == 0)  // ignore comments
+                if (line.StartsWith("#") || line.Length == 0)  // ignore comments and empty lines
                     continue;
                 students.Add(new Student(line));
             }

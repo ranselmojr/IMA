@@ -518,7 +518,7 @@
             this.lblUniversity.TabIndex = 15;
             this.lblUniversity.Text = "Unsung University";
             // 
-            // btnViewx
+            // btnView
             // 
             this.btnView.Location = new System.Drawing.Point(306, 128);
             this.btnView.Name = "btnViewx";
@@ -526,9 +526,9 @@
             this.btnView.TabIndex = 16;
             this.btnView.Text = "View";
             this.btnView.UseVisualStyleBackColor = true;
-            this.btnView.Click += new System.EventHandler(this.btnViewx_Click);
+            this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
-            // btnEditx
+            // btnEdit
             // 
             this.btnEdit.Location = new System.Drawing.Point(399, 128);
             this.btnEdit.Name = "btnEditx";
@@ -536,7 +536,7 @@
             this.btnEdit.TabIndex = 17;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
-            this.btnEdit.Click += new System.EventHandler(this.btnEditx_Click);
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // StudentDemographics
             // 
