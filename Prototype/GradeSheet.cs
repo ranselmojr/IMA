@@ -3,14 +3,14 @@ using System.Windows.Forms;
 
 namespace Prototype
 {
-    public partial class AcademicHistory : Form
+    public partial class GradeSheet : Form
     {
-        public AcademicHistory()
+        public GradeSheet()
         {
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
