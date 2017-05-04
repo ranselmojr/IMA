@@ -6,7 +6,7 @@ C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.StudentDemographic
 C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.AcademicHistory.resources
 C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.GradeSheet.resources
 C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.LecturePreparation.resources
-C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.frmLogin.resources
+C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Login.resources
 C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.MainPage.resources
 C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.Properties.Resources.resources
 C:\Users\richy\Projects\IMA\Prototype\obj\x86\Debug\Prototype.ScheduleSheet.resources
