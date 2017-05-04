@@ -199,7 +199,7 @@ namespace Prototype
             string[] lines = null;
             try
             {
-                lines = File.ReadAllLines("..\\..\\students.txt");  // simulate the "database"
+                lines = File.ReadAllLines("..\\..\\Resources\\students.txt");  // simulate the "database"
             }
             catch (FileNotFoundException)
             {
