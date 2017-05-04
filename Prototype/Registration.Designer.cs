@@ -83,7 +83,7 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.btnExit = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -110,6 +110,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(28, 30);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(95, 80);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
@@ -119,9 +120,9 @@
             this.lblUniversity.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUniversity.Location = new System.Drawing.Point(129, 84);
             this.lblUniversity.Name = "lblUniversity";
-            this.lblUniversity.Size = new System.Drawing.Size(181, 26);
+            this.lblUniversity.Size = new System.Drawing.Size(150, 26);
             this.lblUniversity.TabIndex = 5;
-            this.lblUniversity.Text = "Unsung University";
+            this.lblUniversity.Text = "C# High School";
             // 
             // grpBasic
             // 
@@ -487,9 +488,9 @@
             this.checkBox11.AutoSize = true;
             this.checkBox11.Location = new System.Drawing.Point(6, 98);
             this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(100, 20);
+            this.checkBox11.Size = new System.Drawing.Size(62, 20);
             this.checkBox11.TabIndex = 9;
-            this.checkBox11.Text = "Construction";
+            this.checkBox11.Text = "Music";
             this.checkBox11.UseVisualStyleBackColor = true;
             // 
             // checkBox10
@@ -669,16 +670,16 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // btnSave
+            // btnSubmit
             // 
-            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(615, 503);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 12;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Location = new System.Drawing.Point(615, 503);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.TabIndex = 12;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnClear
             // 
@@ -740,9 +741,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(808, 539);
+            this.ClientSize = new System.Drawing.Size(808, 538);
             this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.grpAccess);
             this.Controls.Add(this.grpBasic);
@@ -750,8 +751,11 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximumSize = new System.Drawing.Size(824, 577);
+            this.MinimumSize = new System.Drawing.Size(824, 577);
             this.Name = "Registration";
             this.Text = "IMA Registration";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -823,7 +827,7 @@
         private System.Windows.Forms.GroupBox grpGender;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.CheckBox checkBox12;
         private System.Windows.Forms.CheckBox checkBox11;

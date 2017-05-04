@@ -20,5 +20,10 @@ namespace Prototype
         {
             this.Close();
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

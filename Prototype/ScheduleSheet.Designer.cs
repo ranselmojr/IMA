@@ -37,7 +37,7 @@
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnExit = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -207,15 +207,15 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // btnSave
+            // btnSubmit
             // 
-            this.btnSave.Location = new System.Drawing.Point(660, 452);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 165;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.btnSubmit.Location = new System.Drawing.Point(660, 452);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.TabIndex = 165;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // picLogo
             // 
@@ -223,6 +223,7 @@
             this.picLogo.Location = new System.Drawing.Point(28, 30);
             this.picLogo.Name = "picLogo";
             this.picLogo.Size = new System.Drawing.Size(95, 80);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLogo.TabIndex = 2;
             this.picLogo.TabStop = false;
             // 
@@ -232,9 +233,9 @@
             this.label23.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(129, 84);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(181, 26);
+            this.label23.Size = new System.Drawing.Size(150, 26);
             this.label23.TabIndex = 168;
-            this.label23.Text = "Unsung University";
+            this.label23.Text = "C# High School";
             // 
             // label1
             // 
@@ -379,6 +380,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.label19.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(539, 136);
             this.label19.Name = "label19";
@@ -1080,7 +1082,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(877, 497);
+            this.ClientSize = new System.Drawing.Size(877, 496);
             this.Controls.Add(this.textBox71);
             this.Controls.Add(this.textBox72);
             this.Controls.Add(this.textBox73);
@@ -1181,11 +1183,14 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximumSize = new System.Drawing.Size(893, 535);
+            this.MinimumSize = new System.Drawing.Size(893, 535);
             this.Name = "ScheduleSheet";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "IMA Schedule Sheet";
@@ -1208,7 +1213,7 @@
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

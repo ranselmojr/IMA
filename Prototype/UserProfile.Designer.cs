@@ -42,7 +42,7 @@
             this.btnView = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -122,6 +122,7 @@
             this.pctLogo.Margin = new System.Windows.Forms.Padding(2);
             this.pctLogo.Name = "pctLogo";
             this.pctLogo.Size = new System.Drawing.Size(95, 80);
+            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 1;
             this.pctLogo.TabStop = false;
             // 
@@ -132,9 +133,9 @@
             this.lblUniversity.Location = new System.Drawing.Point(128, 84);
             this.lblUniversity.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUniversity.Name = "lblUniversity";
-            this.lblUniversity.Size = new System.Drawing.Size(181, 26);
+            this.lblUniversity.Size = new System.Drawing.Size(150, 26);
             this.lblUniversity.TabIndex = 2;
-            this.lblUniversity.Text = "Unsung University";
+            this.lblUniversity.Text = "C# High School";
             // 
             // lblEIN
             // 
@@ -187,15 +188,16 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // btnSave
+            // btnSubmit
             // 
-            this.btnSave.Location = new System.Drawing.Point(587, 310);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(50, 23);
-            this.btnSave.TabIndex = 8;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSubmit.Location = new System.Drawing.Point(587, 310);
+            this.btnSubmit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(50, 23);
+            this.btnSubmit.TabIndex = 8;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnClear
             // 
@@ -423,10 +425,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(734, 344);
+            this.ClientSize = new System.Drawing.Size(734, 343);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnView);
@@ -435,8 +437,11 @@
             this.Controls.Add(this.lblUniversity);
             this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximumSize = new System.Drawing.Size(750, 382);
+            this.MinimumSize = new System.Drawing.Size(750, 382);
             this.Name = "UserProfile";
             this.Text = "IMA User Profile";
             this.menuStrip1.ResumeLayout(false);
@@ -464,7 +469,7 @@
         private System.Windows.Forms.Button btnView;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label6;

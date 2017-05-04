@@ -17,7 +17,7 @@ namespace Prototype
             cmbMonday.Items.Add("Supplement 20");
         }
       
-        private void btnSave_Click(object sender, EventArgs e)
+        private void btnSubmit_Click(object sender, EventArgs e)
         {
             this.Close();
         }

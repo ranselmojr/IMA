@@ -49,22 +49,22 @@
             this.picLogo.Location = new System.Drawing.Point(28, 30);
             this.picLogo.Name = "picLogo";
             this.picLogo.Size = new System.Drawing.Size(95, 80);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLogo.TabIndex = 1;
             this.picLogo.TabStop = false;
             // 
             // btnGrades
             // 
-            this.btnGrades.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnGrades.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnGrades.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGrades.BackgroundImage")));
-            this.btnGrades.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnGrades.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGrades.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGrades.Location = new System.Drawing.Point(430, 134);
             this.btnGrades.Margin = new System.Windows.Forms.Padding(2);
             this.btnGrades.Name = "btnGrades";
             this.btnGrades.Size = new System.Drawing.Size(181, 89);
             this.btnGrades.TabIndex = 3;
-            this.btnGrades.Text = "Grade   \r\nSheet   ";
-            this.btnGrades.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGrades.Text = "Grades";
             this.btnGrades.UseVisualStyleBackColor = false;
             this.btnGrades.Click += new System.EventHandler(this.btnGrades_Click);
             // 
@@ -72,31 +72,29 @@
             // 
             this.btnAttendance.BackColor = System.Drawing.Color.LimeGreen;
             this.btnAttendance.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAttendance.BackgroundImage")));
-            this.btnAttendance.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnAttendance.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAttendance.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAttendance.Location = new System.Drawing.Point(28, 253);
             this.btnAttendance.Margin = new System.Windows.Forms.Padding(2);
             this.btnAttendance.Name = "btnAttendance";
             this.btnAttendance.Size = new System.Drawing.Size(181, 89);
             this.btnAttendance.TabIndex = 4;
-            this.btnAttendance.Text = "Attendance   \r\nSheet   ";
-            this.btnAttendance.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAttendance.Text = "Attendance";
             this.btnAttendance.UseVisualStyleBackColor = false;
             this.btnAttendance.Click += new System.EventHandler(this.btnAttendance_Click_1);
             // 
             // btnSchedule
             // 
-            this.btnSchedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnSchedule.BackColor = System.Drawing.Color.DarkOrchid;
             this.btnSchedule.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSchedule.BackgroundImage")));
-            this.btnSchedule.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSchedule.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSchedule.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSchedule.Location = new System.Drawing.Point(29, 134);
             this.btnSchedule.Margin = new System.Windows.Forms.Padding(2);
             this.btnSchedule.Name = "btnSchedule";
             this.btnSchedule.Size = new System.Drawing.Size(181, 89);
             this.btnSchedule.TabIndex = 5;
-            this.btnSchedule.Text = "Schedule   \r\nSheet   ";
-            this.btnSchedule.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSchedule.Text = "Schedules";
             this.btnSchedule.UseVisualStyleBackColor = false;
             this.btnSchedule.Click += new System.EventHandler(this.btnSchedule_Click);
             // 
@@ -104,15 +102,14 @@
             // 
             this.btnLectures.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnLectures.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLectures.BackgroundImage")));
-            this.btnLectures.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnLectures.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLectures.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLectures.Location = new System.Drawing.Point(228, 134);
             this.btnLectures.Margin = new System.Windows.Forms.Padding(2);
             this.btnLectures.Name = "btnLectures";
             this.btnLectures.Size = new System.Drawing.Size(181, 89);
             this.btnLectures.TabIndex = 6;
-            this.btnLectures.Text = "Lecture   \r\nPreparation   ";
-            this.btnLectures.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLectures.Text = "Lectures";
             this.btnLectures.UseVisualStyleBackColor = false;
             this.btnLectures.Click += new System.EventHandler(this.btnLectures_Click);
             // 
@@ -120,15 +117,14 @@
             // 
             this.btnDemographics.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnDemographics.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDemographics.BackgroundImage")));
-            this.btnDemographics.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnDemographics.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnDemographics.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDemographics.Location = new System.Drawing.Point(430, 253);
             this.btnDemographics.Margin = new System.Windows.Forms.Padding(2);
             this.btnDemographics.Name = "btnDemographics";
             this.btnDemographics.Size = new System.Drawing.Size(181, 89);
             this.btnDemographics.TabIndex = 7;
-            this.btnDemographics.Text = "Student   \r\nDemographics   ";
-            this.btnDemographics.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDemographics.Text = "Demographics   ";
             this.btnDemographics.UseVisualStyleBackColor = false;
             this.btnDemographics.Click += new System.EventHandler(this.btnDemographics_Click);
             // 
@@ -136,15 +132,14 @@
             // 
             this.btnHistory.BackColor = System.Drawing.Color.Silver;
             this.btnHistory.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHistory.BackgroundImage")));
-            this.btnHistory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnHistory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnHistory.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHistory.Location = new System.Drawing.Point(228, 253);
             this.btnHistory.Margin = new System.Windows.Forms.Padding(2);
             this.btnHistory.Name = "btnHistory";
             this.btnHistory.Size = new System.Drawing.Size(181, 89);
             this.btnHistory.TabIndex = 8;
-            this.btnHistory.Text = "Academic   \r\nHistory   ";
-            this.btnHistory.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHistory.Text = "Academic History";
             this.btnHistory.UseVisualStyleBackColor = false;
             this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
             // 
@@ -154,9 +149,9 @@
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(146, 86);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 26);
+            this.label1.Size = new System.Drawing.Size(150, 26);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Unsung University";
+            this.label1.Text = "C# High School";
             // 
             // pctSettings
             // 
@@ -164,6 +159,7 @@
             this.pctSettings.Location = new System.Drawing.Point(581, 30);
             this.pctSettings.Name = "pctSettings";
             this.pctSettings.Size = new System.Drawing.Size(30, 30);
+            this.pctSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctSettings.TabIndex = 11;
             this.pctSettings.TabStop = false;
             this.pctSettings.Click += new System.EventHandler(this.pctSettings_Click);
@@ -194,7 +190,10 @@
             this.Controls.Add(this.btnAttendance);
             this.Controls.Add(this.btnGrades);
             this.Controls.Add(this.picLogo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximumSize = new System.Drawing.Size(654, 401);
+            this.MinimumSize = new System.Drawing.Size(654, 401);
             this.Name = "MainPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IMA Main Page";

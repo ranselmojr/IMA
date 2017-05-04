@@ -39,7 +39,7 @@ namespace Prototype
         {
             btnCancel.Enabled = false;
             btnEdit.Enabled = false;
-            btnSave.Enabled = false;
+            btnSubmit.Enabled = false;
             btnView.Enabled = false;
             txtStudent.Clear();
             txtLast.Clear();
@@ -76,7 +76,7 @@ namespace Prototype
             this.Close();
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
+        private void btnSubmit_Click(object sender, EventArgs e)
         {      
             candidate.Addr1 = txtAddress1.Text;  // update editable fields to "database"
             candidate.Addr2 = txtAddress2.Text;              
@@ -84,7 +84,7 @@ namespace Prototype
             candidate.State = cmbState.Text;            
             candidate.Country = cmbCountry.Text;
             candidate.Zip = Int32.Parse(txtZip.Text);
-            btnSave.Enabled = false;
+            btnSubmit.Enabled = false;
         }
 
         private void txtStudent_TextChanged(object sender, EventArgs e)
@@ -149,7 +149,7 @@ namespace Prototype
             cmbState.Enabled = true;
             cmbCountry.Enabled = true;
             txtZip.ReadOnly = false;
-            btnSave.Enabled = true;
+            btnSubmit.Enabled = true;
         }
     }
 

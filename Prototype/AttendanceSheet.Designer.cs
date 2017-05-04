@@ -49,12 +49,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.cmbMonday = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.btnExit = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -65,13 +64,11 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.comboBox17 = new System.Windows.Forms.ComboBox();
             this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
             this.comboBox21 = new System.Windows.Forms.ComboBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.comboBox22 = new System.Windows.Forms.ComboBox();
             this.comboBox23 = new System.Windows.Forms.ComboBox();
             this.comboBox24 = new System.Windows.Forms.ComboBox();
-            this.comboBox25 = new System.Windows.Forms.ComboBox();
             this.comboBox26 = new System.Windows.Forms.ComboBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -84,8 +81,11 @@
             this.comboBox29 = new System.Windows.Forms.ComboBox();
             this.comboBox30 = new System.Windows.Forms.ComboBox();
             this.comboBox31 = new System.Windows.Forms.ComboBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
             this.comboBox19 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.comboBox20 = new System.Windows.Forms.ComboBox();
+            this.comboBox25 = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
@@ -141,6 +141,7 @@
             this.pctLogo.Location = new System.Drawing.Point(28, 30);
             this.pctLogo.Name = "pctLogo";
             this.pctLogo.Size = new System.Drawing.Size(95, 80);
+            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 1;
             this.pctLogo.TabStop = false;
             // 
@@ -150,9 +151,9 @@
             this.lblUniversity.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUniversity.Location = new System.Drawing.Point(129, 84);
             this.lblUniversity.Name = "lblUniversity";
-            this.lblUniversity.Size = new System.Drawing.Size(181, 26);
+            this.lblUniversity.Size = new System.Drawing.Size(150, 26);
             this.lblUniversity.TabIndex = 2;
-            this.lblUniversity.Text = "Unsung University";
+            this.lblUniversity.Text = "C# High School";
             // 
             // lblName
             // 
@@ -197,6 +198,7 @@
             // lblThursday
             // 
             this.lblThursday.AutoSize = true;
+            this.lblThursday.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.lblThursday.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThursday.Location = new System.Drawing.Point(462, 171);
             this.lblThursday.Name = "lblThursday";
@@ -268,16 +270,6 @@
             this.cmbMonday.TabIndex = 14;
             this.cmbMonday.Text = "Present";
             // 
-            // comboBox3
-            // 
-            this.comboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(560, 206);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(65, 21);
-            this.comboBox3.TabIndex = 15;
-            this.comboBox3.Text = "Present";
-            // 
             // comboBox4
             // 
             this.comboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -318,14 +310,15 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // btnSave
+            // btnSubmit
             // 
-            this.btnSave.Location = new System.Drawing.Point(455, 377);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 20;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSubmit.Location = new System.Drawing.Point(455, 377);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.TabIndex = 20;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnClear
             // 
@@ -420,16 +413,6 @@
             this.comboBox18.TabIndex = 38;
             this.comboBox18.Text = "Present";
             // 
-            // comboBox20
-            // 
-            this.comboBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.comboBox20.FormattingEnabled = true;
-            this.comboBox20.Location = new System.Drawing.Point(560, 258);
-            this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(65, 21);
-            this.comboBox20.TabIndex = 36;
-            this.comboBox20.Text = "Present";
-            // 
             // comboBox21
             // 
             this.comboBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -477,16 +460,6 @@
             this.comboBox24.Size = new System.Drawing.Size(65, 21);
             this.comboBox24.TabIndex = 43;
             this.comboBox24.Text = "Present";
-            // 
-            // comboBox25
-            // 
-            this.comboBox25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.comboBox25.FormattingEnabled = true;
-            this.comboBox25.Location = new System.Drawing.Point(560, 232);
-            this.comboBox25.Name = "comboBox25";
-            this.comboBox25.Size = new System.Drawing.Size(65, 21);
-            this.comboBox25.TabIndex = 42;
-            this.comboBox25.Text = "Present";
             // 
             // comboBox26
             // 
@@ -594,16 +567,6 @@
             this.comboBox31.Size = new System.Drawing.Size(65, 21);
             this.comboBox31.TabIndex = 55;
             // 
-            // comboBox15
-            // 
-            this.comboBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(560, 283);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(65, 21);
-            this.comboBox15.TabIndex = 56;
-            this.comboBox15.Text = "Absent";
-            // 
             // comboBox19
             // 
             this.comboBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
@@ -614,14 +577,53 @@
             this.comboBox19.TabIndex = 57;
             this.comboBox19.Text = "Absent";
             // 
+            // comboBox3
+            // 
+            this.comboBox3.BackColor = System.Drawing.Color.White;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(560, 232);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(65, 21);
+            this.comboBox3.TabIndex = 59;
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.BackColor = System.Drawing.Color.White;
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Location = new System.Drawing.Point(560, 206);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(65, 21);
+            this.comboBox15.TabIndex = 58;
+            // 
+            // comboBox20
+            // 
+            this.comboBox20.BackColor = System.Drawing.Color.White;
+            this.comboBox20.FormattingEnabled = true;
+            this.comboBox20.Location = new System.Drawing.Point(560, 283);
+            this.comboBox20.Name = "comboBox20";
+            this.comboBox20.Size = new System.Drawing.Size(65, 21);
+            this.comboBox20.TabIndex = 61;
+            // 
+            // comboBox25
+            // 
+            this.comboBox25.BackColor = System.Drawing.Color.White;
+            this.comboBox25.FormattingEnabled = true;
+            this.comboBox25.Location = new System.Drawing.Point(560, 258);
+            this.comboBox25.Name = "comboBox25";
+            this.comboBox25.Size = new System.Drawing.Size(65, 21);
+            this.comboBox25.TabIndex = 60;
+            // 
             // AttendanceSheet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(656, 420);
-            this.Controls.Add(this.comboBox19);
+            this.ClientSize = new System.Drawing.Size(656, 419);
+            this.Controls.Add(this.comboBox20);
+            this.Controls.Add(this.comboBox25);
+            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox15);
+            this.Controls.Add(this.comboBox19);
             this.Controls.Add(this.comboBox31);
             this.Controls.Add(this.comboBox30);
             this.Controls.Add(this.comboBox29);
@@ -635,12 +637,10 @@
             this.Controls.Add(this.comboBox22);
             this.Controls.Add(this.comboBox23);
             this.Controls.Add(this.comboBox24);
-            this.Controls.Add(this.comboBox25);
             this.Controls.Add(this.comboBox26);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.comboBox17);
             this.Controls.Add(this.comboBox18);
-            this.Controls.Add(this.comboBox20);
             this.Controls.Add(this.comboBox21);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.comboBox12);
@@ -651,12 +651,11 @@
             this.Controls.Add(this.comboBox11);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.comboBox6);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.cmbMonday);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label6);
@@ -672,7 +671,10 @@
             this.Controls.Add(this.lblUniversity);
             this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(672, 458);
+            this.MinimumSize = new System.Drawing.Size(672, 458);
             this.Name = "AttendanceSheet";
             this.Text = "IMA Attendance Sheet";
             this.Load += new System.EventHandler(this.Attendance_Load);
@@ -706,12 +708,11 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ComboBox cmbMonday;
-        private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.ComboBox comboBox11;
         private System.Windows.Forms.TextBox textBox2;
@@ -722,13 +723,11 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ComboBox comboBox17;
         private System.Windows.Forms.ComboBox comboBox18;
-        private System.Windows.Forms.ComboBox comboBox20;
         private System.Windows.Forms.ComboBox comboBox21;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.ComboBox comboBox22;
         private System.Windows.Forms.ComboBox comboBox23;
         private System.Windows.Forms.ComboBox comboBox24;
-        private System.Windows.Forms.ComboBox comboBox25;
         private System.Windows.Forms.ComboBox comboBox26;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
@@ -741,7 +740,10 @@
         private System.Windows.Forms.ComboBox comboBox29;
         private System.Windows.Forms.ComboBox comboBox30;
         private System.Windows.Forms.ComboBox comboBox31;
-        private System.Windows.Forms.ComboBox comboBox15;
         private System.Windows.Forms.ComboBox comboBox19;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox15;
+        private System.Windows.Forms.ComboBox comboBox20;
+        private System.Windows.Forms.ComboBox comboBox25;
     }
 }

@@ -47,9 +47,10 @@
             // picLogo
             // 
             this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
-            this.picLogo.Location = new System.Drawing.Point(90, 15);
+            this.picLogo.Location = new System.Drawing.Point(85, 15);
             this.picLogo.Name = "picLogo";
             this.picLogo.Size = new System.Drawing.Size(100, 80);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLogo.TabIndex = 0;
             this.picLogo.TabStop = false;
             // 
@@ -59,9 +60,9 @@
             this.lblUniversity.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUniversity.Location = new System.Drawing.Point(75, 95);
             this.lblUniversity.Name = "lblUniversity";
-            this.lblUniversity.Size = new System.Drawing.Size(133, 16);
+            this.lblUniversity.Size = new System.Drawing.Size(114, 16);
             this.lblUniversity.TabIndex = 1;
-            this.lblUniversity.Text = "Unsung University";
+            this.lblUniversity.Text = "C# High School";
             // 
             // lblUserid
             // 
@@ -173,6 +174,9 @@
             this.Controls.Add(this.lblUserid);
             this.Controls.Add(this.lblUniversity);
             this.Controls.Add(this.picLogo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(300, 387);
+            this.MinimumSize = new System.Drawing.Size(300, 387);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IMA Login";
