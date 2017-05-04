@@ -61,7 +61,7 @@
             this.lblAddress1 = new System.Windows.Forms.Label();
             this.txtAddress1 = new System.Windows.Forms.TextBox();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.txtNotes = new System.Windows.Forms.TextBox();
             this.grpNotes = new System.Windows.Forms.GroupBox();
@@ -87,6 +87,7 @@
             this.pctLogo.Location = new System.Drawing.Point(28, 30);
             this.pctLogo.Name = "pctLogo";
             this.pctLogo.Size = new System.Drawing.Size(95, 80);
+            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
             // 
@@ -423,15 +424,15 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // btnSave
+            // btnSubmit
             // 
-            this.btnSave.Location = new System.Drawing.Point(534, 452);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 10;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.btnSubmit.Location = new System.Drawing.Point(534, 452);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.TabIndex = 10;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnExit
             // 
@@ -514,9 +515,9 @@
             this.lblUniversity.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUniversity.Location = new System.Drawing.Point(129, 84);
             this.lblUniversity.Name = "lblUniversity";
-            this.lblUniversity.Size = new System.Drawing.Size(181, 26);
+            this.lblUniversity.Size = new System.Drawing.Size(150, 26);
             this.lblUniversity.TabIndex = 15;
-            this.lblUniversity.Text = "Unsung University";
+            this.lblUniversity.Text = "C# High School";
             // 
             // btnView
             // 
@@ -543,20 +544,23 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(736, 497);
+            this.ClientSize = new System.Drawing.Size(736, 496);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnView);
             this.Controls.Add(this.lblUniversity);
             this.Controls.Add(this.grpNotes);
             this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.grpStudent);
             this.Controls.Add(this.txtStudent);
             this.Controls.Add(this.lblStudentID);
             this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(752, 535);
+            this.MinimumSize = new System.Drawing.Size(752, 535);
             this.Name = "StudentDemographics";
             this.Text = "IMA Student Demographics";
             this.Load += new System.EventHandler(this.Demographics_Load);
@@ -604,7 +608,7 @@
         private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.Label lblCity;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.TextBox txtFirst;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnExit;

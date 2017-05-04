@@ -10,10 +10,9 @@ namespace Prototype
             InitializeComponent();
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
+        private void btnSubmit_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Saved", "Saved",
-                MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            this.Close();
         }
 
         private void btnExit_Click(object sender, EventArgs e)

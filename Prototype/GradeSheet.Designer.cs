@@ -114,8 +114,8 @@
             this.textBox64 = new System.Windows.Forms.TextBox();
             this.textBox65 = new System.Windows.Forms.TextBox();
             this.textBox66 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -181,6 +181,7 @@
             this.pctLogo.Location = new System.Drawing.Point(28, 30);
             this.pctLogo.Name = "pctLogo";
             this.pctLogo.Size = new System.Drawing.Size(95, 80);
+            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 1;
             this.pctLogo.TabStop = false;
             // 
@@ -190,9 +191,9 @@
             this.lblUniversity.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUniversity.Location = new System.Drawing.Point(129, 84);
             this.lblUniversity.Name = "lblUniversity";
-            this.lblUniversity.Size = new System.Drawing.Size(181, 26);
+            this.lblUniversity.Size = new System.Drawing.Size(150, 26);
             this.lblUniversity.TabIndex = 2;
-            this.lblUniversity.Text = "Unsung University";
+            this.lblUniversity.Text = "C# High School";
             // 
             // lblStudent
             // 
@@ -893,24 +894,25 @@
             this.textBox66.Size = new System.Drawing.Size(95, 22);
             this.textBox66.TabIndex = 70;
             // 
-            // button1
+            // btnExit
             // 
-            this.button1.Location = new System.Drawing.Point(593, 349);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 81;
-            this.button1.Text = "Exit";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnExit.Location = new System.Drawing.Point(593, 349);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 81;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // button2
+            // btnSubmit
             // 
-            this.button2.Location = new System.Drawing.Point(496, 349);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 82;
-            this.button2.Text = "Save";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSubmit.Location = new System.Drawing.Point(496, 349);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.TabIndex = 82;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // button3
             // 
@@ -1010,7 +1012,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(690, 394);
+            this.ClientSize = new System.Drawing.Size(690, 393);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -1020,8 +1022,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSubmit);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.textBox56);
             this.Controls.Add(this.textBox57);
             this.Controls.Add(this.textBox58);
@@ -1102,7 +1104,10 @@
             this.Controls.Add(this.lblUniversity);
             this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(706, 432);
+            this.MinimumSize = new System.Drawing.Size(706, 432);
             this.Name = "GradeSheet";
             this.Text = "IMA Grade Sheet";
             this.menuStrip1.ResumeLayout(false);
@@ -1200,8 +1205,8 @@
         private System.Windows.Forms.TextBox textBox64;
         private System.Windows.Forms.TextBox textBox65;
         private System.Windows.Forms.TextBox textBox66;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
