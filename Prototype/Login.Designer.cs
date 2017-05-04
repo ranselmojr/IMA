@@ -1,6 +1,6 @@
 ﻿namespace Prototype
 {
-    partial class frmLogin
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.lblUniversity = new System.Windows.Forms.Label();
             this.lblUserid = new System.Windows.Forms.Label();

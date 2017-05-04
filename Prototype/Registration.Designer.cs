@@ -91,6 +91,8 @@
             this.dataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viwToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpBasic.SuspendLayout();
             this.grpGender.SuspendLayout();
@@ -126,6 +128,8 @@
             // 
             // grpBasic
             // 
+            this.grpBasic.Controls.Add(this.textBox14);
+            this.grpBasic.Controls.Add(this.label15);
             this.grpBasic.Controls.Add(this.textBox13);
             this.grpBasic.Controls.Add(this.textBox12);
             this.grpBasic.Controls.Add(this.textBox11);
@@ -164,27 +168,27 @@
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(427, 140);
+            this.textBox13.Location = new System.Drawing.Point(289, 138);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(77, 22);
+            this.textBox13.Size = new System.Drawing.Size(48, 22);
             this.textBox13.TabIndex = 31;
             this.textBox13.Text = "1966";
             this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(286, 140);
+            this.textBox12.Location = new System.Drawing.Point(208, 138);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(60, 22);
+            this.textBox12.Size = new System.Drawing.Size(33, 22);
             this.textBox12.TabIndex = 30;
             this.textBox12.Text = "13";
             this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(156, 140);
+            this.textBox11.Location = new System.Drawing.Point(134, 138);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(56, 22);
+            this.textBox11.Size = new System.Drawing.Size(40, 22);
             this.textBox11.TabIndex = 29;
             this.textBox11.Text = "06";
             this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -192,29 +196,29 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(384, 143);
+            this.label14.Location = new System.Drawing.Point(247, 143);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(37, 16);
+            this.label14.Size = new System.Drawing.Size(44, 16);
             this.label14.TabIndex = 28;
-            this.label14.Text = "Year";
+            this.label14.Text = "YYYY";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(247, 143);
+            this.label9.Location = new System.Drawing.Point(180, 143);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(33, 16);
+            this.label9.Size = new System.Drawing.Size(28, 16);
             this.label9.TabIndex = 27;
-            this.label9.Text = "Day";
+            this.label9.Text = "DD";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(106, 143);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.Size = new System.Drawing.Size(30, 16);
             this.label1.TabIndex = 26;
-            this.label1.Text = "Month";
+            this.label1.Text = "MM";
             // 
             // grpGender
             // 
@@ -330,9 +334,9 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(387, 111);
+            this.textBox5.Location = new System.Drawing.Point(415, 140);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(117, 22);
+            this.textBox5.Size = new System.Drawing.Size(89, 22);
             this.textBox5.TabIndex = 16;
             this.textBox5.Text = "131-66-6136";
             // 
@@ -416,7 +420,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(324, 111);
+            this.label4.Location = new System.Drawing.Point(362, 141);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(47, 19);
             this.label4.TabIndex = 4;
@@ -736,6 +740,24 @@
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(324, 111);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(38, 19);
+            this.label15.TabIndex = 32;
+            this.label15.Text = "Zip*";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(387, 110);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(117, 22);
+            this.textBox14.TabIndex = 33;
+            this.textBox14.Text = "04401";
+            // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -843,5 +865,7 @@
         private System.Windows.Forms.ToolStripMenuItem dataToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viwToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Label label15;
     }
 }

@@ -4,26 +4,22 @@ using System.Windows.Forms;
 
 namespace Prototype
 {
-    public partial class frmLogin : Form
+    public partial class Login : Form
     {
-        private static string userId = "12345@unsunguni.edu";
-        private static string password = "12345";
-        private static string msgInvalid = "One or both of User ID and password is invalid; please correct.";
-        private static string msgPassword = "Your password is 12345.";
-        private static string msgRegister = "Your new User ID is " + userId + " and your password is " + password;
-        private static string msgUserid = "User ID is not a valid email address; please correct.";
+        // define constants
+        private const int MINIMUM_LENGTH = 6;
+        private const string userId = "12345@unsunguni.edu";
+        private const string password = "12345";
 
-        public frmLogin()
+        // simulate I18N translation ability by using defined strings
+        private static string msgForgottenPassword = "Your password is " + password + ".";
+        private static string msgInvalidLogin = "One or both of User ID and password is invalid; please correct.";
+        private static string msgInvalidUserid = "User ID is not a valid email address; please correct.";
+        private static string msgRegisteredUser = "Your new User ID is " + userId + " and your password is " + password;
+
+        public Login()
         {
             InitializeComponent();
-        }
-
-        private void lnkForgot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            if (txtUserid.Text.Length < 6)
-                MessageBox.Show(msgUserid);
-            else
-                MessageBox.Show(msgPassword);
         }
 
         private void lnkRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -32,23 +28,34 @@ namespace Prototype
             txtPassword.Clear();
             Form registration = new Registration();
             registration.ShowDialog();
-            MessageBox.Show(msgRegister);
+            MessageBox.Show(msgRegisteredUser);
+        }
+
+        private void lnkForgot_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (txtUserid.Text.Length < MINIMUM_LENGTH)
+                MessageBox.Show(msgInvalidUserid);
+            else
+                MessageBox.Show(msgForgottenPassword);
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            // validate user id
             try
             {
                 string address = new MailAddress(txtUserid.Text).Address;
             }
             catch (Exception ex) when (ex is ArgumentException || ex is FormatException)
             {
-                MessageBox.Show(msgUserid);
+                MessageBox.Show(msgInvalidUserid);
                 return;
             }
+
+            // perform authorization on user id
             if (!txtUserid.Text.ToLower().Equals(userId) || !txtPassword.Text.Equals(password))
             {
-                MessageBox.Show(msgInvalid);
+                MessageBox.Show(msgInvalidLogin);
                 return;
             }
             else
